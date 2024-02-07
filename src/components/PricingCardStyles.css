@@ -1,0 +1,62 @@
+.pricing {
+    width: 100%;
+    padding: 6rem 1rem;
+    background: #0000
+}
+
+.card-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.card {
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card:hover {
+    background-color: #141414;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.card p {
+    margin-right: 10px;
+    padding: 10px 0;
+}
+
+.jj {
+    display: flex; /* Use flexbox for easier alignment */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center;
+  }
+
+ .icon {
+    width: 25px; 
+    height: 25px;
+}
+
+.card .btn {
+    display: block;
+    width: 60%;
+    margin: 2rem auto;
+
+}
+
+@media screen and (max-width: 740px) {
+    .card-container {
+        max-width: 90%;
+        margin: auto;
+        /* display: grid; */
+        grid-template-columns: 1fr;
+        /* grid-gap: 40px; */
+    }
+}
