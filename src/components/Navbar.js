@@ -44,7 +44,7 @@ const Navbar = () => {
         <li>
             <Link to = "/skills">
                 <h3>
-                    Skills
+                    My Skills
                 </h3>
             </Link>
         </li>
