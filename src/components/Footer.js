@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div>
                 {/* <p> 1150 S Clarizz Blvd Apartment, 47401</p> */}
-                <p> Bloomington, Indiana, United States</p>
+                <p> United States</p>
             </div> 
             <div className="phone">
                 <h4><FaPhone size = {20}
