@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div>
                 {/* <p> 1150 S Clarizz Blvd Apartment, 47401</p> */}
-                <p> United States</p>
+                <p> Bloomington, Indiana, United States</p>
             </div> 
             <div className="phone">
                 <h4><FaPhone size = {20}
@@ -23,9 +23,9 @@ const Footer = () => {
                 </h4>
             </div>
             <div className="email">
-                <h4><FaMailBulk size = {20}
-                    style={{color:"#fff", marginRight: "2rem"}}/>
-                        dhanushbraj04@gmail.com 
+                <h4> <a href="mailto:dhanushbraj04@gmail.com"> <FaMailBulk size = {20}
+                    style={{color:"#fff", marginRight: "2rem"}}/></a>
+                        dhanushbraj04@gmail.com  
                 </h4>
             </div>
             
@@ -36,16 +36,18 @@ const Footer = () => {
             <p>Join me on Twitter for updates, LinkedIn for my professional journey, Instagram for my content edits and Portraits
                 and GitHub for coding adventures. Let's connect.</p>
             <div className="social">
-                <FaFacebook size = {20}
-                    style={{color:"#fff", marginRight: "2rem"}}/>
-                <FaTwitter size = {20}
-                    style={{color:"#fff", marginRight: "2rem"}}/>
-                <FaLinkedin size = {20}
-                    style={{color:"#fff", marginRight: "2rem"}}/>
-                <FaGithub size={20} 
-                    style={{color:"#fff", marginRight: "2rem"}}/>
-                <FaInstagram size={20}
-                    style={{color:"#fff", marginRight: "2rem"}}/>
+            <a href="https://www.facebook.com/dhanush.braj.3/"><FaFacebook size = {20}
+                    style={{color:"#fff", marginRight: "2rem"}}/></a>
+            <a href="https://twitter.com/DHANUSHBRAJ18"><FaTwitter size = {20}
+                    style={{color:"#fff", marginRight: "2rem"}}/></a>
+                <a href="https://www.linkedin.com/in/dhanush-bharath-raj-9b0186175/"><FaLinkedin size = {20}
+                    style={{color:"#fff", marginRight: "2rem"}}/></a>
+                <a href="https://github.com/DhanushAki"><FaGithub size = {20}
+                    style={{color:"#fff", marginRight: "2rem"}}/></a>
+                <a href="https://www.instagram.com/dhanush__.18/"><FaInstagram size = {20}
+                    style={{color:"#fff", marginRight: "2rem"}}/></a>
+                
+
                         
             </div>
 
