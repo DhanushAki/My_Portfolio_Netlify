@@ -48,13 +48,13 @@ const Navbar = () => {
                 </h3>
             </Link>
         </li>
-        {/* <li>
+        <li>
             <Link to = "/contact">
                 <h3>
                     Contact
                 </h3>
             </Link>
-        </li> */}
+        </li>
         <li>
             <Link to = "/about">
                 <h3>
