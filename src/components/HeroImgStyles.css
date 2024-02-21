@@ -85,14 +85,36 @@
     margin: 1rem 0.2rem;
 }
 
+@keyframes slide {
+    100% { transform: translateY(0); opacity: 1; }
+    0% { transform: translateY(-100%); opacity: 0; }
+  }
+
+  p {
+    animation: slide 3.5s ease forwards;
+    font-size: 0.9rem;
+  }
+
 @media screen and (max-width: 640px){
     .hero .content h1 {
         font-size: 2rem;
         
     }
     
-    .hero .content p {
-        font-size: 1.4rem;
+    /* .hero .content p {
+        font-size: 0.9rem;
         
-    }
+    } */
+
+
+    @keyframes slide {
+        0% { transform: translateX(-100%); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+      }
+    
+      p {
+        animation: slide 1.5s ease forwards;
+        font-size: 0.8rem;
+      }
+
 }
