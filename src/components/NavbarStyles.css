@@ -20,7 +20,24 @@
 
 .nav-menu li {
     padding: 0 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
+
+h1 {
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+h1:hover {
+    background-color: None; /* Change to your desired highlight color */
+  transform: scale(1.15); /* Adjust the zoom level as needed */
+}
+
+.nav-menu li:hover {
+    background-color: None; /* Change to your desired highlight color */
+  transform: scale(1.45); /* Adjust the zoom level as needed */
+  color: #333; /* Adjust the text color on hover */
+}
+
 
 ul {
     list-style-type: none;
