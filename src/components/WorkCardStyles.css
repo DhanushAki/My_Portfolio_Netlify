@@ -11,14 +11,22 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
+    
 
 }
 
 .project-card {
     background: #1a1919;
     padding: 1.2rem 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 
 }
+
+.project-card:hover {
+    background-color: None; /* Change to your desired highlight color */
+    transform: scale(1.15); /* Adjust the zoom level as needed */
+    color: #333; /* Adjust the text color on hover */
+  }
 
 .project-card img {
     width: 100%;
