@@ -1,7 +1,7 @@
 import "./PricingCardStyles.css";
 import React from 'react';
 // import { Link } from "react-router-dom";
-import { ReactJSIcon, AngularIcon, NodeJSIcon, JavaIcon, JavascriptIcon, HtmlIcon, PythonIcon, 
+import { ReactJSIcon, AngularIcon, JavaIcon, JavascriptIcon, HtmlIcon, PythonIcon, 
         SpringIcon, MongoDB, Git, Django, TypeScript, Redis, Sql, Jenkins, Eclipse, Docker, VSCode, Jira, AWSLambda, Postman, Next  } from "./PricingCardImports";
 
 const PricingCard = () => {
