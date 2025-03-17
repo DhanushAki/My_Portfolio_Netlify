@@ -19,9 +19,9 @@ import Jira from "../assets/skills_logo/jira.png";
 import AWSLambda from "../assets/skills_logo/awslambda.png";
 import Postman from "../assets/skills_logo/postman.png";
 import Git from "../assets/skills_logo/git.png";
-
+import Next from "../assets/skills_logo/nextjs.png";
 
 
 export {ReactJSIcon, AngularIcon, NodeJSIcon, JavaIcon, JavascriptIcon, HtmlIcon, PythonIcon,
         SpringIcon, MongoDB, Git, Django, TypeScript, Redis, Sql,
-        Jenkins, Eclipse, Docker, VSCode, Jira, AWSLambda, Postman };
+        Jenkins, Eclipse, Docker, VSCode, Jira, AWSLambda, Postman, Next };

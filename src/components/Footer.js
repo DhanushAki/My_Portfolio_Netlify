@@ -1,6 +1,7 @@
 import "./FooterStyles.css";
 import React from "react";
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaGithub, FaInstagram } from "react-icons/fa";
+import {FaXTwitter} from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -9,13 +10,10 @@ const Footer = () => {
         
         <div className="left">
             <div className="location">
-                <FaHome size = {20} 
-                    style = {{color:"#fff", marginRight: "5rem"}}/>
+            <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+                    <p>Raleigh, North Carolina, USA</p>
             </div>
-            <div>
-                {/* <p> 1150 S Clarizz Blvd Apartment, 47401</p> */}
-                <p> Bloomington, Indiana, United States</p>
-            </div> 
+
             <div className="phone">
                 <h4><FaPhone size = {20}
                     style={{color:"#fff", marginRight: "2rem"}}/>
@@ -32,25 +30,21 @@ const Footer = () => {
         </div>
 
         <div className="right"> 
-            <h4> Wanna Elevate your networking game..?</h4>
-            <p>Join me on Twitter for updates, LinkedIn for my professional journey, Instagram for my content edits and Portraits
-                and GitHub for coding adventures. Let's connect.</p>
+            <h4> Want to Elevate your networking game..?</h4>
+            <p>Connect on LinkedIn, Instagram & GitHub!</p>
             <div className="social">
-            <a href="https://www.facebook.com/dhanush.braj.3/"><FaFacebook size = {20}
+            <a href="https://www.facebook.com/dhanush.braj.3/" target="_blank" rel="noopener noreferrer"><FaFacebook size = {20}
                     style={{color:"#fff", marginRight: "2rem"}}/></a>
-            <a href="https://twitter.com/DHANUSHBRAJ18"><FaTwitter size = {20}
+            <a href="https://twitter.com/DHANUSHBRAJ18" target="_blank" rel="noopener noreferrer"><FaXTwitter size = {20}
                     style={{color:"#fff", marginRight: "2rem"}}/></a>
-                <a href="https://www.linkedin.com/in/dhanush-bharath-raj-9b0186175/"><FaLinkedin size = {20}
+                <a href="https://www.linkedin.com/in/dhanush-bharath-raj-9b0186175/" target="_blank" rel="noopener noreferrer"><FaLinkedin size = {20}
                     style={{color:"#fff", marginRight: "2rem"}}/></a>
-                <a href="https://github.com/DhanushAki"><FaGithub size = {20}
+                <a href="https://github.com/DhanushAki" target="_blank" rel="noopener noreferrer"><FaGithub size = {20}
                     style={{color:"#fff", marginRight: "2rem"}}/></a>
-                <a href="https://www.instagram.com/dhanush__.18/"><FaInstagram size = {20}
+                <a href="https://www.instagram.com/dhanush__.18/" target="_blank" rel="noopener noreferrer"><FaInstagram size = {20}
                     style={{color:"#fff", marginRight: "2rem"}}/></a>
-                
-
                         
             </div>
-
         </div>
 
         

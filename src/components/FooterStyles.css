@@ -23,11 +23,14 @@
 .location {
     display: flex;
     margin-bottom: 0.8rem;
+    color: white;
+    justify-content:flex-start;
+    align-items: center;
 }
 
-.location p {
-    line-height: 30px;
-}
+/* .location p {
+    padding-left: 0.1rem;
+} */
 
 .right {
     height: 100%;
@@ -48,6 +51,10 @@ h4 {
 
 p {
     font-size: 1rem;
+}
+
+.address {
+    text-align: left;
 }
 
 @media screen and (max-width:640px) {

@@ -4,9 +4,35 @@ import pro3 from "../assets/drumKit.png";
 import pro4 from "../assets/car.png";
 import pro5 from "../assets/image_compress.png";
 import pro6 from "../assets/info_viz.png";
-
+import pro7 from "../assets/Q-braid.png";
+import pro8 from "../assets/libraryManagement.png";
+import pro9 from "../assets/digitalLibrary.png";
 
 const ProjectCardData = [
+    {
+        imgsrc: pro7,
+        title: "AI Driven Chatbot Extension",
+        text: "This is the Chat-bot extention for Visual Studio Code editor for developers",
+        view: "https://github.com/DhanushAki/Chat-Bot-Application",
+        source: "https://github.com/DhanushAki/Chat-Bot-Application",
+    },
+
+    {
+        imgsrc: pro8,
+        title: "Library Management System",
+         text: "Backend System using Java and MySQL",
+        view: "https://github.com/DhanushAki/library-management",
+        source: "https://github.com/DhanushAki/library-management"
+    },
+
+    {
+        imgsrc: pro9,
+        title: "Digital Data Library",
+        text: "This is the Website for the Digital Data Library of Indiana State",
+        view: "https://data-library.onrender.com/",
+        source: "https://github.com/DhanushAki/Data-Library",
+    },
+
     {
         imgsrc: pro1,
         title: "Tour Management System",

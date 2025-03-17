@@ -19,9 +19,6 @@ const AboutContent = () => {
                 <div className="img-stack top">
                    <img src = { img1 } className = "img" alt="True"></img>
                 </div>
-                {/* <div className="img-stack bottom">
-                   <img src = { img2 } className = "img" alt="True"></img>
-                </div> */}
             </div>
 
         </div>

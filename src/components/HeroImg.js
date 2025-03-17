@@ -20,7 +20,7 @@ const HeroImg = () => {
             <div className="image">
               <img src= { myImg } alt="MyFace"/>
             </div>
-            <p >Harnessing the synergy of software development and data analytics, I stand ready to supercharge your project. Armed with expertise in full-stack development, front-end, and back-end technologies, my toolkit includes advanced algorithms, machine learning, and visualization techniques. Let's merge our skills to engineer innovative solutions that bring your vision to life!</p>
+            <p >Skilled in full-stack development and cutting-edge technologies. Let’s build something great together!</p>
         </div>
     </div>
   )

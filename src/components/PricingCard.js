@@ -2,7 +2,7 @@ import "./PricingCardStyles.css";
 import React from 'react';
 // import { Link } from "react-router-dom";
 import { ReactJSIcon, AngularIcon, NodeJSIcon, JavaIcon, JavascriptIcon, HtmlIcon, PythonIcon, 
-        SpringIcon, MongoDB, Git, Django, TypeScript, Redis, Sql, Jenkins, Eclipse, Docker, VSCode, Jira, AWSLambda, Postman  } from "./PricingCardImports";
+        SpringIcon, MongoDB, Git, Django, TypeScript, Redis, Sql, Jenkins, Eclipse, Docker, VSCode, Jira, AWSLambda, Postman, Next  } from "./PricingCardImports";
 
 const PricingCard = () => {
   return (
@@ -20,8 +20,8 @@ const PricingCard = () => {
                     <img className = "icon"src={AngularIcon} alt="ReactJS" />
                 </div>
                 <div className="jj">
-                    <p>- NodeJS -</p>
-                    <img className = "icon" src={NodeJSIcon} alt="NodeJS" />
+                    <p>- NextJS -</p>
+                    <img className = "icon" src={Next} alt="NodeJS" />
                 </div>
                 <div className="jj">
                     <p>- Java -</p>
@@ -78,7 +78,7 @@ const PricingCard = () => {
             </div>
 
             <div className="card">
-                <h3>- Web Tools -</h3>
+                <h3>- Tools -</h3>
                 <span className="bar"></span>
                 <div className="jj">
                     <p className="btc">- Jenkins -</p>
